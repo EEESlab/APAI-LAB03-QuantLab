@@ -71,22 +71,15 @@ $ conda activate quantlab
 
 ## Download the exercise and execute it
 
-If you managed to followed the process so far, you should be able to execute the Jupyter notebook with the exercise.
-First, clone a copy of this repository:
+Clone a copy of this repository:
 ```
 $ cd ~
-$ git clone 
-```
-
-Before starting the exercise, download the checkpoint containing the pre-trained parameters of the VGG-9 network that is the subject of the notebook:
-```
-$ mkdir -p .../logs_vgg
-$ cp ~/Downloads/... ~/.../logs_vgg
+$ git clone https://github.com/EEESlab/APAI-LAB03-QuantLab.git
 ```
 
 You are now ready to go through the notebook. Enjoy!
 ```
 $ conda activate quantlab
-(quantlab) $ cd ...
+(quantlab) $ cd APAI-LAB03-QuantLab
 (quantlab) $ jupyter notebook APAI-LAB03-QuantLab.ipynb
 ```
